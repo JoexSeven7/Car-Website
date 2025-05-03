@@ -1,0 +1,17 @@
+.slide-btn {
+    position: absolute;
+    right: 0;
+    bottom: 0px;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    color:rgb(199, 208, 208);
+    z-index: 9000;
+}
+
+.slide-btn:hover {
+    color: rgb(77, 77, 78);
+}

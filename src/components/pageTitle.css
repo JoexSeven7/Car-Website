@@ -1,0 +1,37 @@
+.page-title {
+    margin-bottom: 60px;
+    position: relative;
+    padding-bottom: 20px;
+    color: rgb(199, 208, 208);
+}
+
+.page-title::before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 60px;
+    height: 5px;
+    background:aliceblue;
+    bottom: 0;
+    left: calc(50% - 25px);
+}
+
+.page-title h2 {
+    font-family: 'Racing Sans One', cursive;
+    font-size: 3rem;
+    line-height: 1;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 10px;
+    
+}
+
+.page-title p {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: rgb(199, 208, 208);
+}

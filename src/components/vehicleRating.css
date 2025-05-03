@@ -1,0 +1,8 @@
+.vehicle .stars {
+    padding: 0 20px;
+    margin-bottom: 5px;
+}
+
+.vehicle .stars i {
+    color: rgb(255, 223, 16);
+}

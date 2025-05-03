@@ -1,0 +1,83 @@
+
+.vehicle-details .icon-box {
+    flex: 1 1 48%; /* Allows flexible resizing */
+    min-width: 220px; /* Prevents boxes from shrinking too much */
+    max-width: 48%px; /* Prevents them from being too wide */
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    background:  rgb(16, 18, 18);
+    box-shadow: 2px 0 4px 0 rgba(70, 69, 69, 0.2);
+    transition: all 0.3s ease-in-out;
+    z-index: 1;
+    text-align: center;
+    word-wrap: break-word; /* Ensures long words break properly */
+}
+
+
+
+.vehicle-details .icon-box::before {
+    content: '';
+    position: absolute;
+    background: rgb(45, 39, 39);
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: 100%;
+    transition: all 0.4s;
+    z-index: -1;
+}
+
+.vehicle-details .icon-box:hover::before {
+    background:rgb(31, 36, 36);
+    top: 0;
+    border-radius: 0px;
+}
+
+.vehicle-details .icon {
+    margin-bottom: 15px;
+}
+
+.vehicle-details .icon i {
+    font-size: 48px;
+    line-height: 1;
+    color:rgb(40, 237, 237);
+    transition: all 0.3s ease-in-out;
+}
+
+.vehicle-details .title {
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 18px;
+    white-space: normal; /* Allows text to wrap */
+    overflow-wrap: break-word; /* Ensures long words break */
+}
+
+
+.vehicle-details .title a {
+    color:rgb(199, 208, 208);
+}
+
+.vehicle-details .description {
+    font-size: 15px;
+    line-height: 28px;
+    margin-bottom: 0;
+    color:rgb(199, 208, 208);
+}
+
+.vehicle-details .icon-box:hover .title a,
+.vehicle-details .icon-box:hover .description {
+    color:rgb(199, 208, 208);
+}
+
+.vehicle-details .icon-box:hover .icon i {
+    color:rgb(199, 208, 208);
+}
+
+
+/* Ensuring Flexbox Alignment */
+@media (max-width: 768px) {
+    .vehicle-details {
+        flex-direction: column; /* Stacks elements on smaller screens */
+    }
+}
