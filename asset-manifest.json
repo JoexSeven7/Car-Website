@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Car-Website/static/css/main.4d07240b.css",
+    "main.js": "/Car-Website/static/js/main.e0f4d517.js",
+    "static/js/453.8680dfd1.chunk.js": "/Car-Website/static/js/453.8680dfd1.chunk.js",
+    "static/media/boxicons.svg": "/Car-Website/static/media/boxicons.9e2b21b135bc7d4c803f.svg",
+    "static/media/boxicons.eot": "/Car-Website/static/media/boxicons.65a8ce52fc5427e8f94d.eot",
+    "static/media/lam.webp": "/Car-Website/static/media/lam.0f19b9c307d4b577e47f.webp",
+    "static/media/boxicons.woff": "/Car-Website/static/media/boxicons.d12afc36557395143e4b.woff",
+    "static/media/boxicons.ttf": "/Car-Website/static/media/boxicons.db9ddb1898dbd76badca.ttf",
+    "static/media/bootstrap-icons.woff?": "/Car-Website/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
+    "static/media/bootstrap-icons.woff2?": "/Car-Website/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
+    "static/media/boxicons.woff2": "/Car-Website/static/media/boxicons.df635aaf04cd75132f62.woff2",
+    "index.html": "/Car-Website/index.html",
+    "main.4d07240b.css.map": "/Car-Website/static/css/main.4d07240b.css.map",
+    "main.e0f4d517.js.map": "/Car-Website/static/js/main.e0f4d517.js.map",
+    "453.8680dfd1.chunk.js.map": "/Car-Website/static/js/453.8680dfd1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4d07240b.css",
+    "static/js/main.e0f4d517.js"
+  ]
+}
