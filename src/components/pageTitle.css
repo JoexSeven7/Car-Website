@@ -9,11 +9,11 @@
     content: '';
     position: absolute;
     display: block;
-    width: 60px;
+    width: 100px;
     height: 5px;
-    background:aliceblue;
+    background:rgb(53, 54, 55);
     bottom: 0;
-    left: calc(50% - 25px);
+    left: calc(50% - 50px);
 }
 
 .page-title h2 {
@@ -33,5 +33,5 @@
     margin: 0;
     font-size: 1.1rem;
     font-weight: 500;
-    color: rgb(199, 208, 208);
+    color: rgb(93, 97, 97);
 }
