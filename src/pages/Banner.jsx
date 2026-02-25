@@ -20,13 +20,10 @@ function Banner() {
     }
 
     setCars(
-      cars.map((car, index) => {
-        car.active = false;
-        if (index === ind + 1) {
-          car.active = true;
-        }
-        return car;
-      })
+      cars.map((car, index) => ({
+        ...car,
+        active: index === ind + 1
+      }))
     );
   };
   return (
@@ -35,7 +32,7 @@ function Banner() {
         cars.length > 0 &&
         cars.slice(0, 5).map((car, index) => (
           <div
-            key={cars._id}
+            key={car._id}
             className={`slide ${car.active ? 'active' : undefined}`}>
             <div className="container-fluid">
               <div className="row banner-top">
@@ -130,7 +127,6 @@ function Banner() {
                 </div>
               </div>
             </div>
-            <h1>{cars.title}</h1>
           </div>
         ))}
     </div>

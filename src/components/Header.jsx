@@ -26,24 +26,24 @@ function Header() {
 
   return (
     <header>
-      <a
-        href="/"
+      <Link
+        to="/"
         className="logo"
         style={
           location.pathname === '/'
             ? { color: '#afb2b3' }
             : { color: '#bdf0f8' }
         }>
-        <i class="bi bi-suit-diamond-fill"></i>Cars
-        <i class="bi bi-suit-diamond-fill"></i>
-      </a>
+        <i className="bi bi-suit-diamond-fill"></i>Cars
+        <i className="bi bi-suit-diamond-fill"></i>
+      </Link>
       <div>
         <Link to="/library" className="like">
           <i className="bi bi-heart-fill"></i>
           <span className="likeNumbers">{library.length}</span>
         </Link>
         <a href="##" className="menu" onClick={handleToggleMenu}>
-          {open ? <i className="bi bi-x"></i> : <i class="bi bi-list"></i>}
+          {open ? <i className="bi bi-x"></i> : <i className="bi bi-list"></i>}
         </a>
       </div>
       <ul className={`nav ${open ? 'active' : undefined}`}>

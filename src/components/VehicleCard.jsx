@@ -20,7 +20,7 @@ function VehicleCard({ car }) {
           <img src={car.bannerImg} alt="" className="img-fluid" />
         </div>
         <h3>
-          <Link to={`/vehicles/ ${car._id}`}>{car.title}</Link>
+          <Link to={`/vehicles/${car._id}`}>{car.title}</Link>
         </h3>
         <VehicleRating rating={car.rating} />
         <p>{car.description.substring(0, 30)}....</p>
@@ -41,7 +41,7 @@ function VehicleCard({ car }) {
             }>
             Like <i className="bi bi-heart-fill"></i>
           </Link>
-          <Link to={`/vehicles/ ${car._id}`} className="details">
+          <Link to={`/vehicles/${car._id}`} className="details">
             Details <i className="bi bi-plus-lg"></i>
           </Link>
         </div>
