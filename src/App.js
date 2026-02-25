@@ -22,10 +22,10 @@ function App() {
   const [library, setLibrary] = useState ([]);
 
   const fetchData = ()=>{
-    fetch('http://localhost:3000/api/vehiclesData.json')
+    fetch('/api/vehiclesData.json')
     .then(res=>res.json())
     .then(data => setData(data))
-    .catch(e => console.log(e.massage));
+    .catch(e => console.log(e.message));
   };
 
   useEffect(()=>{
